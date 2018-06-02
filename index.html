@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>Word Association</title>	
+</head>    
+
+
+
+<body>	
+	<header>
+		<div class="logo"><img src="img/logo.svg" alt=""></div>		
+	</header>
+	<div class="content">		
+		<div class="words_flow">			
+			<span class="three"></span>
+			<span class="four"></span>
+			<span class="five"></span>
+			<span class="six"></span>
+			<span class="seven"></span>
+			<span class="eith"></span>
+			<span class="nine"></span>
+			<span class="ten"></span>
+		</div>
+		<div class="inputs">
+			<input type="text" class="first_letter"><input type="text" class="your_word" placeholder="continue word">
+		</div>
+		<button class="add">add to blockchain</button>
+	</div>
+	<div class="nav_info">
+		<div class="links">			
+			<a href="#history" class="popup">history</a>
+			<a href="#faq" class="faq popup">about</a>			
+			<a href="#about" class="faq popup">contact</a>
+		</div>
+	</div>	
+	
+	<div id="history" class="mfp-fade mfp-hide">
+		<h3>History</h3>
+		<ul>				
+		</ul>
+	</div>
+
+	<div id="faq" class="mfp-fade mfp-hide">
+		<div class="container_faq">
+			<h3>About</h3>
+
+			<p>An exciting game  which is based on the blockchain  Nebulas. The goal of the game is to come up with a word that begins with the last letter of the last word. Train your imagination with Nebulas.</p>
+		</div>
+	</div>
+
+	<div id="about" class="mfp-fade mfp-hide">
+		<h3>Contact</h3>
+		<span>E-mail: 
+			<a href="mailto:alexdarkstalkeroriginal@gmail.com">alexdarkstalkeroriginal@gmail.com</a>
+		</span>
+	</div>
+
+	<a href="#transaction" class="transaction" style="position: absolute; width: 0.1px; opacity: .1"></a>	
+	<div id="transaction" class="mfp-hide mfp-fade">
+		<p>Transaction is <span class="status_trans"></span></p>
+		<img src="img/pending.gif" alt="">
+		<div class="hash"></div>			
+	</div>
+
+	<div class="noExtension" style="display: none"> 
+		NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use BlackJack Nebulas or try CTRL+F5
+	</div>
+	<div class="errNetwork" style="display: none">
+		NOTE: Sorry, you use incorrect net
+	</div>	
+
+	<script src='lib/jquery-3.3.1.min.js'></script>
+	<link rel="stylesheet" href="lib/main.css">	
+	<script src='lib/nebPay.js'></script>    	
+    <script src='lib/nebulas.js'></script>
+    <script src='lib/jquery.magnific-popup.js'></script>
+    <script src="lib/common.js"></script>        
+    <link rel="stylesheet" href="lib/magnific-popup.css">    
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,700,900" rel="stylesheet">
+    <script>
+    
+	</script>
+</body>
+</html>
